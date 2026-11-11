@@ -10,6 +10,12 @@
 
 小店客服每天重复回答同样的问题（几点关门、能不能外卖、会员怎么办）。把 FAQ 做成知识库，交给 AI 先答，常见问题秒回，人工只处理答不了的。
 
+## 截图
+
+![对话效果：问「几点关门」，按 FAQ 回答并标出引用来源](screenshots/chat-demo.png)
+
+![Dify 工作流：User Input → Knowledge Retrieval → LLM → Answer](screenshots/workflow.png)
+
 ## 工作流程
 
 ```mermaid
@@ -44,7 +50,7 @@ flowchart LR
 | 我对牛奶过敏能喝什么？ | 按过敏说明给出建议 |
 | FAQ 里没有的问题 | 回答「这个我帮您问一下店长」，不编造 |
 
-截图见 `screenshots/`。
+回答下方会显示引用来源（Citations），能看出答案来自哪份文档。
 
 ## 目录
 
